@@ -1,0 +1,56 @@
+*{
+    margin: 10px;
+}
+
+p{
+    color: pink;
+}
+
+#titulo-principal{
+    color: red;
+    font-size: 32px;
+}
+
+.destaque{
+    background-color: yellow;
+}
+
+div p {
+    color:green;
+}
+
+div > p {
+    color: purple;
+}
+
+input[type="text"]{
+    border: 2px solid blue;
+}
+
+li:first-child{
+    color:red;
+}
+
+p::first-letter{
+    font-size: 26px;
+}
+
+ul{
+    margin: 50px;
+
+    .importante{
+        color:red;
+    }
+
+    li{
+        background-color: greenyellow;
+
+        &:hover{
+            color: beige;
+        }
+    }
+
+    &:hover{
+        background-color: aquamarine;
+    }
+}
