@@ -1,0 +1,1 @@
+Declaração = composta por propriedade e valor
